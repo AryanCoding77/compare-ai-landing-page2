@@ -46,7 +46,7 @@ export default function LeaderboardPage() {
                     <span className="font-medium text-lg">#{index + 1}</span>
                     <span className="text-lg">{user.username}</span>
                   </div>
-                  <span className="font-bold text-lg">{user.score}</span>
+                  <span className="font-bold text-lg ml-12">{user.score}</span>
                 </div>
               ))}
             </div>
